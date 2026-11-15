@@ -1,0 +1,15 @@
+# NetBeans / Ant build outputs
+/build/
+/dist/
+*.class
+
+# NetBeans private configuration
+/nbproject/private/
+
+# Java temporary files
+*.log
+*.tmp
+
+# Operating system files
+.DS_Store
+Thumbs.db
