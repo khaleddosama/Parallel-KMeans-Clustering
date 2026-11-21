@@ -35,10 +35,6 @@ public final class Cluster {
         points.clear();
     }
 
-    /**
-     * Replaces the centroid with the mean and returns the Euclidean movement.
-     * An empty cluster keeps its centroid and returns zero.
-     */
     public double recomputeCentroid() {
         if (points.isEmpty()) {
             return 0.0;
